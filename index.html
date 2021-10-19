@@ -29,9 +29,11 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems Operational
+					
+					<div class="panel major outage">
+						<span data-l10n-id="Major-outage">Major outage</span> <span data-l10n-id="on">on</span> Services_AWS.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
@@ -50,7 +52,7 @@
 					</li>
 					
 					<li>
-						Services_AWS <span class="status operational" data-l10n-id="operational">operational</span>
+						Services_AWS <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
@@ -65,7 +67,24 @@
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
-					<em data-l10n-id="no-incidents">No incidents in the past 90 days.</em>
+					
+					<div class="incident">
+						<span class="date moment">2021-10-19 00:29:05 UTC</span>
+
+						
+							<span class="label major outage float-right" data-l10n-id="major-outage">major outage</span>
+						
+						
+							<span class="label system float-right">Services_AWS</span>
+						
+						<hr/>
+
+						<span class="title">Services AWS 服务中断</span>
+						<p>基于AWS的Services服务暂时中断，等待系统更新。一般情况下不会影响试用，但是将无法提供备份。</p>
+
+						
+					</div>
+					
 				
 			</section>
 
